@@ -20,7 +20,7 @@ def test_calculate_area_square_accuracy():
     value = math.sqrt(17)
     assert calculate_area_square(value) == pytest.approx(17)
 
-def test_calculate_area_square_failure():
-    # Intentional error: the expected value is set incorrectly.
-    # For example, asserting 5^2 equals 24 instead of 25.
-    assert calculate_area_square(5) == 24
+# def test_calculate_area_square_failure():
+#     # Intentional error: the expected value is set incorrectly.
+#     # For example, asserting 5^2 equals 24 instead of 25.
+#     assert calculate_area_square(5) == 24
